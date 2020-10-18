@@ -29,3 +29,38 @@ python --version
 nano ~/.bash_profile
 under the Setting PATH for Python 3.9.x
 alisa python=python3
+
+# Check all installed packages
+pip3 list
+
+# Create a Virtual Environment
+python -m venv project_name
+
+# Activate a Virtual Environment
+source project_name/bin/activate
+
+# exit current Virtual Environment
+deactivate
+
+# Check which Virtual Environment is activated
+which python
+
+# Check packages versions
+pip freeze
+
+# Save current packages versions to a requirement text file
+pip freeze > requirements.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
