@@ -25,6 +25,9 @@ cd ..
 # go back to the directory you were in before the last time you issued the cd command
 cd -
 
+# Make a new folder/directory
+mkdir project_name
+
 # Check python version
 python --version
 
@@ -37,10 +40,16 @@ alisa python=python3
 pip3 list
 
 # Create a Virtual Environment
+## Mac
 python -m venv project_name
+##
+python -m venv project_name\venv
 
 # Activate a Virtual Environment
+## Mac
 source project_name/bin/activate
+## Windows
+project_name\Scripts\activate.bat
 
 # exit current Virtual Environment
 deactivate
@@ -54,7 +63,9 @@ pip freeze
 # Save current packages versions to a requirement text file
 pip freeze > requirements.txt
 
-
+# Remove virtual envionment
+## Windows
+rmdir project_name /s
 
 
 
