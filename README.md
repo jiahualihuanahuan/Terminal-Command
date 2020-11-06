@@ -7,6 +7,9 @@ $ ls -l
 # list invisible files in current directory
 ls -a
 
+# Directory
+dir
+
 # change directory to specified directory
 cd directory
 
