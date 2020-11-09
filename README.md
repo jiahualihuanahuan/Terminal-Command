@@ -42,14 +42,18 @@ pip3 list
 # Create a Virtual Environment
 ## Mac
 python -m venv project_name
-##
+## Windows
 python -m venv project_name\venv
+## Conda Command
+conda create -n venv_name python=3.7 numpy scipy keras-gpu
 
 # Activate a Virtual Environment
 ## Mac
 source project_name/bin/activate
 ## Windows
 project_name\Scripts\activate.bat
+## Conda Command
+activate venv_name
 
 # exit current Virtual Environment
 deactivate
