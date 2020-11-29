@@ -13,7 +13,7 @@ conda create -n venv_name python=3.7 numpy scipy keras-gpu
 ## Mac
 source project_name/bin/activate
 ## Windows
-project_name\Scripts\activate.bat
+project_name\venv\Scripts\activate.bat
 ## Conda Command
 activate venv_name
 
