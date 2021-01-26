@@ -31,6 +31,9 @@ conda deactivate
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 
+## Conda change python version
+ conda install python=3.8.6
+
 # list files in current directory
 $ ls
 $ ls -l
