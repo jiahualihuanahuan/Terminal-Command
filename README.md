@@ -27,6 +27,9 @@ deactivate
 ## Conda Command
 conda deactivate
 
+## Conda add a channel (conda-forge) and set priority
+conda config --add channels conda-forge
+conda config --set channel_priority strict
 
 # list files in current directory
 $ ls
