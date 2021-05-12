@@ -31,6 +31,12 @@ pip install cryptocompare
 
 pip intsall tf-nightly
 
+# Check conda version
+conda --version
+
+# update conda
+conda update conda
+
 # Conda add a channel (conda-forge) and set priority
 conda config --add channels conda-forge
 
@@ -40,7 +46,7 @@ conda config --set channel_priority strict
 conda info --envs
 
 # Conda change python version
- conda install python=3.8.6
+conda install python=3.8.6
 
 # list files in current directory
 $ ls
@@ -84,6 +90,9 @@ alisa python=python3
 # Check all installed packages
 pip3 list
 
+# check python version
+python --version
+
 # Check which Virtual Environment is activated
 which python
 
@@ -96,15 +105,3 @@ pip freeze > requirements.txt
 # Remove virtual envionment
 ## Windows
 rmdir project_name /s
-
-
-
-
-
-
-
-
-
-
-
-
