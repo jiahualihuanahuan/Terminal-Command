@@ -1,5 +1,12 @@
 # terminal command
 
+# Install jupyter notebook in conda
+conda install -c conda-forge jupyterlab
+conda install jupyter
+
+# Open jupyter notebook in conda
+jupyter-notebook
+
 
 # Create a Virtual Environment
 ## Mac
