@@ -2,6 +2,7 @@
 
 # Create a Virtual Environment
 conda create -n crypto (-n: Name of the Virtual Environment)
+
 conda create -n crypto python=3.8 numpy pandas scipy (Can specify python version and install libraries together)
 
 # Activate a Virtual Environment
@@ -20,15 +21,19 @@ jupyter-notebook
 # install a library 
 ## if the library exist in conda
 conda install numpy
+
 conda install pandas matplotlib pillow seaborn
 
 ## if the library does not exist in conda
 conda install pip
+
 pip install cryptocompare
+
 pip intsall tf-nightly
 
 # Conda add a channel (conda-forge) and set priority
 conda config --add channels conda-forge
+
 conda config --set channel_priority strict
 
 # get virtual environment info
@@ -39,6 +44,7 @@ conda info --envs
 
 # list files in current directory
 $ ls
+
 $ ls -l
 
 # list invisible files in current directory
@@ -70,7 +76,9 @@ python --version
 
 # Access the path (bash profile) and make a alias
 nano ~/.bash_profile
+
 under the Setting PATH for Python 3.9.x
+
 alisa python=python3
 
 # Check all installed packages
