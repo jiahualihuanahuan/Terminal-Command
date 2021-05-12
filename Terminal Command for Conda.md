@@ -31,6 +31,16 @@ pip install cryptocompare
 
 pip intsall tf-nightly
 
+# Manage library
+## Check to see if a package you have not installed named "beautifulsoup4" is available from the Anaconda repository
+conda search beautifulsoup4
+
+## Install this package into the current environment
+conda install beautifulsoup4
+
+## Check to see if the newly installed program is in this environment
+conda list
+
 # Check conda version
 conda --version
 
