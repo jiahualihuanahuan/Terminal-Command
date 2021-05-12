@@ -1,49 +1,30 @@
-# terminal command
+# terminal command for conda
 
 # Create a Virtual Environment
-## Mac
-python -m venv project_name
-## Windows
-python -m venv project_name\venv
-## Conda Command
-conda create -n venv_name python=3.7 numpy scipy keras-gpu
+conda create -n crypto (-n: Name of the Virtual Environment)
+conda create -n crypto python=3.8 numpy pandas scipy (Can specify python version and install libraries together)
 
 # Activate a Virtual Environment
-## Mac
-source project_name/bin/activate
-## Windows
-project_name\venv\Scripts\activate.bat
-## Conda Command
-activate venv_name
+activate crypto
 
 # exit current Virtual Environment/deactivate
-## Mac
-deactivate
-
-## Windows
-deactivate
-
-## Conda Command
 conda deactivate
 
 # jupyter notebook
-## Install jupyter notebook in conda
-conda install -c conda-forge jupyterlab
-conda install jupyter
+## Install jupyter notebook
+conda install -c conda-forge jupyterlab (see add channel in the following text to avoid using -c conda-forge)
 
 ## Open jupyter notebook in conda
 jupyter-notebook
 
 # install a library 
 ## if the library exist in conda
-conda install package_name
-
 conda install numpy
+conda install pandas matplotlib pillow seaborn
 
 ## if the library does not exist in conda
 conda install pip
-pip install package_name
-
+pip install cryptocompare
 pip intsall tf-nightly
 
 # Conda add a channel (conda-forge) and set priority
@@ -94,8 +75,6 @@ alisa python=python3
 
 # Check all installed packages
 pip3 list
-
-
 
 # Check which Virtual Environment is activated
 which python
