@@ -1,13 +1,5 @@
 # terminal command
 
-# Install jupyter notebook in conda
-conda install -c conda-forge jupyterlab
-conda install jupyter
-
-# Open jupyter notebook in conda
-jupyter-notebook
-
-
 # Create a Virtual Environment
 ## Mac
 python -m venv project_name
@@ -34,14 +26,34 @@ deactivate
 ## Conda Command
 conda deactivate
 
-## Conda add a channel (conda-forge) and set priority
+# jupyter notebook
+## Install jupyter notebook in conda
+conda install -c conda-forge jupyterlab
+conda install jupyter
+
+## Open jupyter notebook in conda
+jupyter-notebook
+
+# install a library 
+## if the library exist in conda
+conda install package_name
+
+conda install numpy
+
+## if the library does not exist in conda
+conda install pip
+pip install package_name
+
+pip intsall tf-nightly
+
+# Conda add a channel (conda-forge) and set priority
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 
-## get virtual environment info
+# get virtual environment info
 conda info --envs
 
-## Conda change python version
+# Conda change python version
  conda install python=3.8.6
 
 # list files in current directory
