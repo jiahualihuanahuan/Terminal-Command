@@ -11,6 +11,9 @@ activate crypto
 # exit current Virtual Environment/deactivate
 conda deactivate
 
+# Remove virtual envionment
+conda env remove -n ENV_NAME
+
 # jupyter notebook
 ## Install jupyter notebook
 conda install -c conda-forge jupyterlab (see add channel in the following text to avoid using -c conda-forge)
@@ -112,6 +115,4 @@ pip freeze
 # Save current packages versions to a requirement text file
 pip freeze > requirements.txt
 
-# Remove virtual envionment
-## Windows
-rmdir project_name /s
+
