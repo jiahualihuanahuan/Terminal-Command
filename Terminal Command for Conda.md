@@ -1,18 +1,25 @@
 # terminal command for conda
 
-# Create a Virtual Environment
+## Virtual Environment
+### Create a Virtual Environment
 conda create -n crypto (-n: Name of the Virtual Environment)
+conda create --name pytorch
 
 conda create -n crypto python=3.8 numpy pandas scipy (Can specify python version and install libraries together)
 
-# Activate a Virtual Environment
-activate crypto
+### Activate a Virtual Environment
+activate crypto (by activating the virtual environment, the enviornment name will apear at the beginning of the command prompt in parentheses)
 
-# exit current Virtual Environment/deactivate
+### exit current Virtual Environment/deactivate
 conda deactivate
 
-# Remove virtual envionment
+### Remove virtual envionment
 conda env remove -n ENV_NAME
+
+### Check environments in system
+conda info --envs
+conda env list
+
 
 # jupyter notebook
 ## Install jupyter notebook
