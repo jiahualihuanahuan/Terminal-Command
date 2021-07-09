@@ -1,6 +1,8 @@
 # terminal command for conda
 
 ## Virtual Environment
+check below link for documentation
+https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html
 ### Create a Virtual Environment
 conda create -n crypto (-n: Name of the Virtual Environment)
 conda create --name pytorch
