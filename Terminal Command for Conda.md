@@ -5,6 +5,7 @@ check below link for documentation
 https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html
 ### Create a Virtual Environment
 conda create -n crypto (-n: Name of the Virtual Environment)
+
 conda create --name pytorch
 
 conda create -n crypto python=3.8 numpy pandas scipy (Can specify python version and install libraries together)
